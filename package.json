@@ -1,6 +1,6 @@
 {
   "name": "payload-client-query",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Type-safe client for querying Payload CMS from frontend components",
   "author": "Bob Bass <bob@layerbase.com>",
   "license": "MIT",
