@@ -1,5 +1,10 @@
 # CLAUDE.md
 
+## Git Workflow
+
+- `main` is the protected release branch. All changes go through PRs.
+- PRs to `main` must bump the version in `package.json` to pass the version check.
+
 ## What This Is
 
 `payload-client-query` is a type-safe client for querying Payload CMS from frontend (`'use client'`) components. It mirrors Payload's Local API surface (`payload.find`, `payload.findByID`, etc.) but works over HTTP via a POST route handler.
